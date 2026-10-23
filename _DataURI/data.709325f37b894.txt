@@ -1,0 +1,3 @@
+(function(require, requireNative, loadScript, exports, console, privates, apiBridge, bindingUtil, getInternalApi, $Array, $Function, $JSON, $Object, $RegExp, $String, $Error, $Promise) {'use strict';var getSetIconHandler=require("setIcon").getSetIconHandler;apiBridge.registerCustomHook((function(bindingsAPI){var apiFunctions=bindingsAPI.apiFunctions;apiFunctions.setHandleRequest("setIcon",getSetIconHandler("action.setIcon"))}));
+
+})
